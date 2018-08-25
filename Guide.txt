@@ -1,0 +1,25 @@
+Stage 1: Make a binary search tree that contains ID, name, sex, etc.
+Maximum field length 128 chars
+Maximum record length 512 chars
+
+After making the BST, search the BST for records
+
+3 files:
+datafile = The input file that contains the elements such as the IDs, Sexs, Ages, etc.
+outputfile = The output file which is shown in the Example Output (output the ID, Sex, Age, Height, etc.)
+keyfile = The search key, which is the one that we want to search in the BST.
+
+Also, printf the number of comparisons required to find the search key
+For example if we have 5 keys,
+
+        Ben
+    Alice   Ricky
+Aby       Gilbert
+
+And if we want to find Gilbert, then the number of comparisons is 3
+
+Note that the search keys are also NOT UNIQUE. Which means, if we find duplicates, like Cornelia Aalten, then we need to find duplicates
+of Cornelia Aalten. 
+
+For example, if there is another Gilbert below Gilbert on the example search tree, then we have to output both of them AND
+make the total number of comparisons 4.
