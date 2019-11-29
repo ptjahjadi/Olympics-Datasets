@@ -9,6 +9,8 @@ The project is personally also the first step in demonstrating competency using 
 The project is divided into two stages:
 * Stage 1 involves developing a binary search tree using insertion and search functions.
 * Stage 2 involves extending the binary search tree theory and developing a linked list for each node in the binary search to handle duplicate data.
+
+.o, .h and makefiles are included within the project. 
 ## Built With
 * C
 ## Special Thanks
